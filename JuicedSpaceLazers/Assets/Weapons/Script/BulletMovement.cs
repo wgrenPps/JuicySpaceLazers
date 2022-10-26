@@ -17,7 +17,7 @@ public class BulletMovement : MonoBehaviour
     void Update()
     {
         
-        transform.position += new Vector3(0, 0, -shotSpeed * Time.deltaTime);
+        transform.Translate(0, shotSpeed * Time.deltaTime, 0);
         if (Mathf.Abs(transform.position.z - turretScript.originPoint.z) >= 10)
         {
             Destroy(gameObject);
