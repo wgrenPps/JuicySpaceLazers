@@ -16,16 +16,14 @@ public class TurretFiring : MonoBehaviour
     {
         barrelDistFromRot = barrel.localScale.y / 2;
 
-        originPoint = barrel.transform.position + new Vector3(Mathf.Cos(((barrel.transform.localEulerAngles.y * -1) + 90f) * radToDegMult) * barrelDistFromRot, 0, Mathf.Sin(((barrel.transform.localEulerAngles.y * -1) + 90f) * radToDegMult) * barrelDistFromRot);
-        print("unit circle angle: " + barrel.transform.localEulerAngles.y + 90f);
-        print("cos: " + Mathf.Cos((barrel.transform.localEulerAngles.y + 90f) * radToDegMult));
-        print("sin: " + Mathf.Sin((barrel.transform.localEulerAngles.y + 90f) * radToDegMult));
-        print("origin point: " + originPoint);
+       
     }
 
     // Update is called once per frame
     void Update()
     {
+        originPoint = barrel.transform.position + new Vector3(Mathf.Cos(((barrel.transform.localEulerAngles.y * -1) + 90f) * radToDegMult) * barrelDistFromRot, 0, Mathf.Sin(((barrel.transform.localEulerAngles.y * -1) + 90f) * radToDegMult) * barrelDistFromRot);
+
         if (Input.GetKeyDown(KeyCode.W))
         {
             print(originPoint);

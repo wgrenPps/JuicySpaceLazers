@@ -354,7 +354,11 @@
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/Weapons/Script/BulletMovement.cs"
+"Assets/Weapons/Script/HomingFiring.cs"
+"Assets/Weapons/Script/HomingMovement.cs"
+"Assets/Weapons/Script/PlayerGoCircleBrrrrr.cs"
 "Assets/Weapons/Script/TurretFiring.cs"
+"Assets/Weapons/Script/TurretRotate.cs"
 -langversion:9.0
 
 /deterministic
