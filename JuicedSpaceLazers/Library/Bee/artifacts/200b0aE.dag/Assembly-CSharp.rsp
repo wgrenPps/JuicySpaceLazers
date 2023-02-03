@@ -353,6 +353,11 @@
 -r:"Library/Bee/artifacts/200b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.ref.dll"
+"Assets/Scripts/BaseEnemyControl.cs"
+"Assets/Scripts/Bulletlife.cs"
+"Assets/Scripts/Enemydetect.cs"
+"Assets/Scripts/Gunfire.cs"
+"Assets/Scripts/OverlayControll.cs"
 "Assets/Scripts/PlaneControl.cs"
 -langversion:9.0
 
